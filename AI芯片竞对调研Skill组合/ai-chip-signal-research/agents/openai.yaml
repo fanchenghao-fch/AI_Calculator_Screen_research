@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 芯片竞对线索深挖"
+  short_description: "围绕人工选中的竞对候选，整理技术与商业变化，形成附来源的市场观察报告"
+  default_prompt: "使用 $ai-chip-signal-research，围绕我提供的筛选报告和选中候选开展市场观察，整理信息、变化及市场含义，并回链和收录看板。"

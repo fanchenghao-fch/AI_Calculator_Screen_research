@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 芯片竞对线索筛选"
+  short_description: "扫描八家竞对的技术与商业新动态，形成候选清单，由你决定深挖范围"
+  default_prompt: "使用 $ai-chip-signal-screening 扫描固定八家竞对近期的新动态，提交候选清单供我决定是否深挖。"

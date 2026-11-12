@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; font-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>竞对厂商信息汇总</title>
+  <style>__STYLES__</style>
+</head>
+<body>
+  <div id="page">
+    <header class="topbar"><div class="topbar-inner"><a class="wordmark" href="#" aria-label="返回看板首页"><span class="brand-symbol" aria-hidden="true">◈</span> 市场洞察<span class="wordmark-divider">/</span><span class="wordmark-sub">竞对研究</span></a><span class="local-label"><span></span>本地研究档案</span></div></header>
+    <main class="main">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="eyebrow">COMPETITIVE INTELLIGENCE</div>
+        <h1 id="page-title">竞对厂商信息汇总</h1>
+        <div class="intro-bottom"><p id="as-of">从已有深挖报告中，回到事实与依据。</p><div class="search-wrap"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 4.5 4.5"/></svg><input id="search" type="search" placeholder="搜索厂商、产品或研究内容" aria-label="搜索厂商、产品或研究内容" autocomplete="off"><kbd aria-hidden="true">⌘ K</kbd></div></div>
+      </section>
+      <div class="board-heading"><h2>厂商动态</h2><span id="search-result" role="status" aria-live="polite">最新研究在前</span></div>
+      <section id="vendor-grid" class="vendor-grid" aria-label="八家厂商研究成果"></section>
+      <footer><div><span class="footer-mark">◈</span> 内容摘自深挖报告，持续记录市场信息与观察。</div><div id="updated-at"></div><button id="maintenance" class="text-button" hidden></button></footer>
+    </main>
+  </div>
+  <dialog id="reader" aria-labelledby="reader-title">
+    <div class="reader-shell"><div class="reader-toolbar"><button id="reader-back" class="back-button" hidden>‹ 返回研究</button><span id="reader-context">研究详情</span><button id="reader-close" class="icon-button" aria-label="关闭阅读面板"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div id="reader-scroll" class="reader-scroll"><div id="reader-content"></div></div></div>
+  </dialog>
+  <noscript>请允许此本地文件运行 JavaScript，以查看已嵌入的研究报告。页面不需要联网加载数据。</noscript>
+  <script id="dashboard-data" type="application/json">__PAYLOAD__</script>
+  <script>__MARKED__</script>
+  <script>__OBSERVATION_COPY__</script>
+  <script>__APP__</script>
+</body>
+</html>
